@@ -15,7 +15,7 @@ function compute()
     else 
     {
         alert("Please enter a Positive Number.");
-        document.getElementById("principal").setfocus;
+        document.getElementById("principal").focus();
     }
 }
 function updateRate() 
