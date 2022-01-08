@@ -7,12 +7,16 @@
     <body>
     <div class = "maindiv">
         <h1>Simple Interest Calculator</h1>
-
-        <div>Amount <input type="number"  id="principal"> </div> <br/> 
-        <div>Rate <input onchange = "updateRate()" type="range"  id="rate" step=0.25 min=1 max=20 value=10.25>
+        <section>
+        
+           
+        </section>
+        
+        Amount<div class="a"><input type="number"  id="principal"></div>  <br/> 
+         Rate<div class="b"><input onchange = "updateRate()" type="range"  id="rate" step=0.25 min=1 max=20 value=10.25>
         <span id = "rate_val">10.25%</span></div>  <br/>
-        <div>No. of Years 
-        <select  id="years">  
+        No. of Years
+        <div class="c"><select  id="years">  
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -25,11 +29,13 @@
             <option value="10">10</option>
         </select>
         </div>
+    
             <br/>
-        Interest : <span id="result"></span><br>
+        
 
-        <button onclick="compute()">Compute Interest</button>
-        <footer>  &#169; This Calculator belongs to --Blooper--</footer>
+        <div class="d"><button onclick="compute()">Compute Interest</button>
+            <span  id="result"></span><br>
+        <footer>  &#169; This Calculator belongs to --Blooper--</footer></div>
     </div>
     </body>
 </html>

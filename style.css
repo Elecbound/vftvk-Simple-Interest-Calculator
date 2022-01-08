@@ -4,13 +4,19 @@ h1{color:grey;font-family:verdana}
         {background-color: white; 
         color: black; width: 300px; 
         padding: 20px; border-radius: 25px; margin: auto;
-        
-        display: flex;
-        flex-direction: column;
-        align-items: normal;
-        justify-content: normal;
-        
         }
-        
-          
-
+.a {position:relative;
+    bottom: 20px;
+    left: 100px;}
+.b {position:relative;
+    bottom: 20px;
+    left: 100px}
+.c {position: relative;
+    bottom: 20px;
+    left: 100px}
+    .d {position: relative;
+    bottom: 35px;
+    
+    }
+    .e {position: relative;
+    bottom:35px;}
