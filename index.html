@@ -5,13 +5,14 @@
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <!-- Set up maindiv for styling overall theme-->
     <div class = "maindiv">
         <h1>Simple Interest Calculator</h1>
         <section>
         
            
         </section>
-        
+        <!-- Set up inputs for principal, range, and years. -->
         Amount<div class="a"><input type="number"  id="principal"></div>  <br/> 
          Rate<div class="b"><input onchange = "updateRate()" type="range"  id="rate" step=0.25 min=1 max=20 value=10.25>
         <span id = "rate_val">10.25%</span></div>  <br/>
@@ -30,10 +31,10 @@
         </select>
         </div>
     
-            <br/>
+            <br/><br>
         
-
-        <div class="d"><button onclick="compute()">Compute Interest</button>
+        <!-- Calculate interest when button is clicked. -->
+        <div class="d"><button onclick="compute()">Compute Interest</button><br><br>
             <span  id="result"></span><br>
         <footer>  &#169; This Calculator belongs to --Blooper--</footer></div>
     </div>

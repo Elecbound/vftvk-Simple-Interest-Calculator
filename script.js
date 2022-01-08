@@ -1,3 +1,4 @@
+/* Calculate the interest on click, check that principal is a positive number */
 function compute()
 {
     var principal = document.getElementById("principal").value;
@@ -18,6 +19,7 @@ function compute()
         document.getElementById("principal").focus();
     }
 }
+/*Updates the value of the slider for the rate */
 function updateRate() 
 {
     var rateval = document.getElementById("rate").value;

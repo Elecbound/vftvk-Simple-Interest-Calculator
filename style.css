@@ -5,6 +5,7 @@ h1{color:grey;font-family:verdana}
         color: black; width: 300px; 
         padding: 20px; border-radius: 25px; margin: auto;
         }
+/* Making things look nice*/
 .a {position:relative;
     bottom: 20px;
     left: 100px;}
